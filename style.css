@@ -36,9 +36,35 @@ h1 {
   font-style: italic;
 }
 
+.top > div > a:active{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 15px;
+  margin: 20px;
+  color: #b1b1b1;
+  font-style: italic;
+}
+
+.top > div > a:visited{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 15px;
+  margin: 20px;
+  color: #f4f4f4;
+  font-style: italic;
+}
+
 .buttons{
   display: flex;
   justify-content: flex-end;
+}
+
+
+/* Home */
+
+.logo{
+  background-color: #dedede;
+  border-radius: 40px;
 }
 
 /*projects main*/
