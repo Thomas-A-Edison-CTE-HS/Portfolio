@@ -1,0 +1,77 @@
+body {
+  background: #404040;
+}
+p {
+  color: black;
+}
+h1 {
+  font-weight: bold;
+}
+
+.top{
+  display: flex;
+  flex-direction: row;
+  display:block;
+  padding-right: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.13), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  background-color: #565656;
+}
+
+
+
+.top > div > a:link{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 15px;
+  margin: 20px;
+  color: #f4f4f4;
+  font-style: italic;
+}
+.top > div > a:hover{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 15px;
+  margin: 20px;
+  color: #e3e3e3;
+  font-style: italic;
+}
+
+.buttons{
+  display: flex;
+  justify-content: flex-end;
+}
+
+/*projects main*/
+
+.main{
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.main > div {
+  margin: 1%;
+}
+
+
+.projects{
+  height:17em;
+  width: 15em;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+}
+
+.previews{
+  height:45.5%;
+  width:95%;
+  display: block;
+  margin:2.5%;
+  object-fit:fill
+}
+
+.descs{
+  margin-top: 2.5%;
+  padding:0.01em 16px;
+  overflow: scroll;
+  height: 43%;
+}
