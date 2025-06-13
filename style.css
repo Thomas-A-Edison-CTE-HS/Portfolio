@@ -62,10 +62,22 @@ h1 {
 
 /* Home */
 
-.logo{
-  background-color: #dedede;
-  border-radius: 40px;
+.mid{
+  display: flex;
+  align-items: center
+  
 }
+
+.logo{
+  height:500px;
+  
+  
+}
+
+.infomid{
+  color:white;
+}
+
 
 /*projects main*/
 
